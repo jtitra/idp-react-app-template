@@ -1,5 +1,8 @@
 {
+    "app_name": "Placeholder",
     "app_slug": "{{ cookiecutter.app_name.lower().replace(' ', '_') }}",
+    "author": "Placeholder",
+    "description": "Placeholder",
     "_copy_without_render": [
         "*shared-theme"
     ]
