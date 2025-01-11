@@ -7,7 +7,7 @@ import Pagination from '@mui/material/Pagination';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import NavigateNextRoundedIcon from '@mui/icons-material/NavigateNextRounded';
-
+{% raw %}
 const articleInfo = [
   {
     tag: 'Engineering',
@@ -230,3 +230,4 @@ export default function Latest() {
     </div>
   );
 }
+{% endraw %}

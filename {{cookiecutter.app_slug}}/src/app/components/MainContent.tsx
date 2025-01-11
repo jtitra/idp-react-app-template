@@ -15,7 +15,7 @@ import OutlinedInput from '@mui/material/OutlinedInput';
 import { styled } from '@mui/material/styles';
 import SearchRoundedIcon from '@mui/icons-material/SearchRounded';
 import RssFeedRoundedIcon from '@mui/icons-material/RssFeedRounded';
-
+{% raw %}
 const cardData = [
   {
     img: 'https://picsum.photos/800/450?random=1',
@@ -183,12 +183,14 @@ export default function MainContent() {
 
   return (
     <Box sx={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
+{% endraw %}
       <div>
         <Typography variant="h1" gutterBottom>
           {{cookiecutter.app_name}}
         </Typography>
         <Typography>{{cookiecutter.description}}</Typography>
       </div>
+{% raw %}
       <Box
         sx={{
           display: { xs: 'flex', sm: 'none' },
@@ -482,3 +484,4 @@ export default function MainContent() {
     </Box>
   );
 }
+{% endraw %}

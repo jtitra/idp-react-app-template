@@ -1,6 +1,6 @@
 import * as React from 'react';
 import SvgIcon from '@mui/material/SvgIcon';
-
+{% raw %}
 export default function SitemarkIcon() {
   return (
     <SvgIcon sx={{ height: 21, width: 100, mr: 2 }}>
@@ -51,3 +51,4 @@ export default function SitemarkIcon() {
     </SvgIcon>
   );
 }
+{% endraw %}

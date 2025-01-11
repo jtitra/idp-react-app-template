@@ -8,7 +8,7 @@ import CheckBoxOutlineBlankRoundedIcon from '@mui/icons-material/CheckBoxOutline
 import CheckRoundedIcon from '@mui/icons-material/CheckRounded';
 import RemoveRoundedIcon from '@mui/icons-material/RemoveRounded';
 import { gray, brand } from '../themePrimitives';
-
+{% raw %}
 /* eslint-disable import/prefer-default-export */
 export const inputsCustomizations: Components<Theme> = {
   MuiButtonBase: {
@@ -443,3 +443,4 @@ export const inputsCustomizations: Components<Theme> = {
     },
   },
 };
+{% endraw %}

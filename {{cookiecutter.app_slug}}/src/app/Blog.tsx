@@ -6,7 +6,7 @@ import MainContent from './components/MainContent';
 import Latest from './components/Latest';
 import Footer from './components/Footer';
 import AppTheme from '../shared-theme/AppTheme';
-
+{% raw %}
 export default function Blog(props: { disableCustomTheme?: boolean }) {
   return (
     <AppTheme {...props}>
@@ -25,3 +25,4 @@ export default function Blog(props: { disableCustomTheme?: boolean }) {
     </AppTheme>
   );
 }
+{% endraw %}

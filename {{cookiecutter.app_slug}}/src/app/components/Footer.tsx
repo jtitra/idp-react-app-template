@@ -13,7 +13,7 @@ import FacebookIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/X';
 import SitemarkIcon from './SitemarkIcon';
-
+{% raw %}
 function Copyright() {
   return (
     <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>
@@ -226,3 +226,4 @@ export default function Footer() {
     </React.Fragment>
   );
 }
+{% endraw %}

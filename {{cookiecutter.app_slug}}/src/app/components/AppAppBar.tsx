@@ -13,7 +13,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 import Sitemark from './SitemarkIcon';
 import ColorModeIconDropdown from '../../shared-theme/ColorModeIconDropdown';
-
+{% raw %}
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: 'flex',
   alignItems: 'center',
@@ -69,7 +69,9 @@ export default function AppAppBar() {
                 FAQ
               </Button>
               <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
+{% endraw %}
                 {{cookiecutter.app_name}}
+{% raw %}
               </Button>
             </Box>
           </Box>
@@ -139,3 +141,4 @@ export default function AppAppBar() {
     </AppBar>
   );
 }
+{% endraw %}
