@@ -1,9 +1,5 @@
 {
-    "app_name": "My React App",
     "app_slug": "{{ cookiecutter.app_name.lower().replace(' ', '_') }}",
-    "author": "Your Name",
-    "email": "you@example.com",
-    "description": "A short description of the React app.",
     "_copy_without_render": [
         "*shared-theme"
     ]
