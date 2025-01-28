@@ -1,7 +1,7 @@
 import * as React from 'react';
 import SvgIcon from '@mui/material/SvgIcon';
 import { useTheme } from "@mui/material/styles";
-
+{% raw %}
 export function HarnessIcon() {
   const theme = useTheme();
   return (
@@ -27,3 +27,4 @@ export function HarnessIcon() {
     </SvgIcon>
   );
 }
+{% endraw %}
